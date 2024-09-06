@@ -1,0 +1,7 @@
+La  pagina "Adopcan" cuenta con dos usuarios precargados en la base de datos, los cuales permiten previsualizar la pagina y sus contenidos, el usuario administrador el cual simula al que seria el encargado de gestionar la pagina y el cual tendría el control de todo el contenido mostrado en la pagina y el usuario normal el cual simula al cliente y el cual solo tendrá acceso a ciertas partes de la pagina en las cuales podrá interactuar. Los usuarios son:
+
+Usuario administrador: Admin@gmail.com
+Contraseña: 1234
+
+Usuario normal: User
+Contraseña: 1234
