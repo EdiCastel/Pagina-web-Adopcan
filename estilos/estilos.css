@@ -1,0 +1,341 @@
+/*Estilos de index.php*/
+.barra{
+    background-color: #120755;
+    width:100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Italiana', serif;
+    color: white;
+}
+.linea{
+    background-color: #F24E1E;
+    width: 100%;
+    height: 30px;
+}
+.linea2{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+.fondo img{
+    width: 100%;
+    height: 706px;
+}
+
+.cont {
+    background-color: #120755;
+    width: 1133px;
+    height: 587px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #F24E1E;
+    display:flex;
+    align-items:center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form {
+    width: 1133px;
+    height: 587px;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.form label{
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.form input{
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+.boton{
+    background-color: #F24E1E;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    width: auto;
+}
+.Reg {
+    color: white;
+    font-family: 'Italiana', serif;
+    font-size: 18px;
+}
+
+/* estilos de registro.php*/
+.contReg {
+    background-color: #120755;
+    width: 1133px;
+    height: 926px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #F24E1E;
+    display:flex;
+    align-items:center;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form2 {
+    width: 1133px;
+    height: 587px;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.form2 label{
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.form2 input{
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+.boton{
+    background-color: #F24E1E;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    width: auto;
+}
+.chk1 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+}
+.chk1 input{
+    width: auto;
+}
+.chk2 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+}
+.chk2 input{
+    width: auto;
+}
+/*estilos de la pagina principal.php*/
+.navB{
+    display: flex;
+    background-color: #120755;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    
+}
+.header {
+    background-color: #120755;
+    width: auto;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    font-family: 'Italiana', serif;
+    color: white;
+    margin: 10px;
+}
+.seccion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.seccion a{
+    color: white;
+    margin: 20px;
+    justify-content: flex-end;
+}
+
+.h1 {
+    text-align: center;
+}
+.tabla1 {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabla2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.columna1{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.columna2{
+
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    background-color: #F24E1E;
+    flex-direction: column;
+    width:80%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.image{
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.etiqueta{
+    width: 80%;
+    height: 50px;
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+    background-color: #120755;
+    border-style:none;
+    border-radius: 30px;
+    color: white;    
+}
+.etiqueta2 {
+    width: 80%;
+    height: 50px;
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+    background-color: #F24E1E;
+    border-style:none;
+    border-radius: 30px;
+    color: white;    
+}
+.desc{
+    width: 80%;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.parrafo1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo1 h6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.parrafo2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo2 h6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pie {
+    color: white;
+    font-size: 18px;
+    font-family: 'Italiana', serif;
+    background-color:#120755;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.pie h6 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*estilos de la pagina Fperros.php*/
+
+
+.fAdop1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*estilos buscar_g.php*/
+.tbuscar {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.cbuscar {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tbuscar {
+    display: flex;
+    justify-content: center;
+    background-color: #F24E1E;
+    flex-direction: column;
+    width:80%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
